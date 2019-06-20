@@ -1,6 +1,5 @@
 #!/bin/bash
-sudo su
-yum update -y
-yum install httpd -y
-service httpd start
+sudo yum update -y
+sudo yum install httpd -y
+sudo service httpd start
 
